@@ -1,6 +1,6 @@
 # H07 - Getting Started with Apache Kafka
 
-Denise Case
+Santhosh Bonala
 Northwest Missouri State University
 44-517 Big Data
 
@@ -75,22 +75,17 @@ List topics to see all topics (including your new bearcat_messages).
 Open another Command Window as Admin and run a message producer.
 
 ```dos
-11run_producer
+producer
 ```
+producer will automatically post the twitter feed into kafka system
 
-While the producer is running, add some messages on the topic.
-
-```dos
-  Message 1 - Go Bearcats!
-  Message 2 - Forever green!!
-```
 
 ## Create consumer (listening on port 9092)
 
 Open another Command Window as Admin and run a message consumer.
 
 ```dos
-21run_consumer
+consumer
 ```
 
 Arrange your producer and consumer command windows beside each other to watch the results.
